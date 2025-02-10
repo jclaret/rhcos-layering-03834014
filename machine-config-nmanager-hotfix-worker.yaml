@@ -1,0 +1,8 @@
+apiVersion: machineconfiguration.openshift.io/v1
+kind: MachineConfig
+metadata:
+  labels:
+    machineconfiguration.openshift.io/role: worker
+  name: 99-networkmanager-rhel-67324
+spec:
+  osImageURL: quay.io/jclaret/networkmanager-1.42.2-30.rmroutes.x86_64:4.14.38
