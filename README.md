@@ -23,7 +23,7 @@ $ podman tag localhost/networkmanager-1.42.2-30.rmroutes.x86_64:${OCP_VERSION} q
 $ podman push quay.io/jclaret/networkmanager-1.42.2-30.rmroutes.x86_64:${OCP_VERSION}
 ```
 
-## How to apply the kernel to OCP using MachineConfig:
+## How to apply the NetworkManager RPMS to OCP using MachineConfig:
 
 - for `master` nodes:
 
